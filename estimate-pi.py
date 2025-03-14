@@ -10,8 +10,8 @@ def gcd(a: int, b: int) -> int:
 def main(_range):
     count = 0
     for i in range(_range):
-        a = random.randint(1,1000)
-        b = random.randint(1,1000)
+        a = random.randint(1,100000)
+        b = random.randint(1,100000)
         if a > b:
             _gcd = gcd(a,b)
         else:
